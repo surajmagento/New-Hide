@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <custom1 translate="label" module="hide">
+            <label>Custom Hide</label>
+            <sort_order>100</sort_order>
+        </custom1>
+    </tabs>
+    <sections>
+        <custom translate="label" module="hide">
+            <label>Custom field for Hide Block</label>
+            <tab>custom1</tab>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+ 
+            <groups>
+                <custom_group translate="label" module="hide">
+                    <label>Custom Hide</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+ 
+                    <fields>
+                        <custom_input translate="label">
+                            <label>Please add category ids </label>
+                            <comment>Hide Blocks in the above ids</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </custom_input>
+                       
+                    </fields>
+                </custom_group>
+            </groups>
+        </custom>
+    </sections>
+</config>

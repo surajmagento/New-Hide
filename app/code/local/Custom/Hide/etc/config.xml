@@ -1,0 +1,19 @@
+<config>
+    <modules>
+        <Custom_Hide>
+            <version>0.1.0</version>
+        </Custom_Hide>
+    </modules>
+    <global>
+        <models>
+            <hide>
+                <class>Custom_Hide_Model</class>
+            </hide>
+        </models>
+        <helpers>
+            <hide>
+                <class>Custom_Hide_Helper</class>
+            </hide>
+        </helpers>
+     </global>
+</config>
